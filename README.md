@@ -1,5 +1,3 @@
-<img width="1054" height="284" alt="Screenshot 2026-03-16 221523" src="https://github.com/user-attachments/assets/6eb29f06-260f-47cc-9b01-703af8aa9e68" /># FULL_ADDER_SUBTRACTOR
-
 Implementation-of-Full-Adder-and-Full-subtractor-circuit
 
 **AIM:**
@@ -70,7 +68,7 @@ output diff,borrow;
 assign diff=(a^b^c);
 assign borrow=(~a&c)|(~a&b)|(b&c);
 endmodule
-*/
+
 
 **RTL Schematic**
 
